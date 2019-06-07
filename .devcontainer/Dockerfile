@@ -16,8 +16,18 @@ RUN apt-get update \
 # Install git, process tools, lsb-release (common in install instructions for CLIs)
 RUN apt-get -y install git procps lsb-release nano
 
-#Install extra CLI packages
-# RUN apt-get install nano google-cloud-sdk
+###### Install google cloud SDK ######
+# Downloading gcloud package
+RUN curl https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz > /tmp/google-cloud-sdk.tar.gz
+
+# Installing the package without manual inputs
+RUN mkdir -p /usr/local/gcloud \
+  && tar -C /usr/local/gcloud -xvf /tmp/google-cloud-sdk.tar.gz \
+  && /usr/local/gcloud/google-cloud-sdk/install.sh --quiet
+
+# Adding the package path to local
+ENV PATH $PATH:/usr/local/gcloud/google-cloud-sdk/bin
+######################################
 
 # Install any missing dependencies for enhanced language service
 RUN apt-get install -y libicu[0-9][0-9]
