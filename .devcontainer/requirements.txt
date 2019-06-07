@@ -1,4 +1,5 @@
-# install parllel python packages
+# install parallel python packages
+# TODO: version these
 dask
 ray
 modin
