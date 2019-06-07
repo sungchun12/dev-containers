@@ -1,0 +1,4 @@
+# install parllel python packages
+dask
+ray
+modin
