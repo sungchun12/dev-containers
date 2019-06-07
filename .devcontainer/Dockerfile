@@ -5,9 +5,6 @@
 
 FROM python:3
 
-# Install pylint
-RUN pip install pylint
-
 # Configure apt
 # Only install necessary debian packages, not suggested ones
 ENV DEBIAN_FRONTEND=noninteractive

@@ -3,3 +3,4 @@
 dask
 ray
 modin
+pylint
