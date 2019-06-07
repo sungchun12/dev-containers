@@ -1,6 +1,8 @@
 #-----------------------------------------------------------------------------------------
-# Copyright (c) Microsoft Corporation. All rights reserved.
-# Licensed under the MIT License. See LICENSE in the project root for license information.
+# This docker file is primarily used for building python-based data analytic pipelines
+# Add other packages as need to explore data interactively(ex: Jupyter Lab)
+# This image is pretty heavy at >1.5 GB, so keep in mind rebuilds will take time
+# I install the gcloud sdk as there's where I prefer to deploy pipelines
 #-----------------------------------------------------------------------------------------
 
 FROM python:3
