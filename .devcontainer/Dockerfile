@@ -1,8 +1,8 @@
 #-----------------------------------------------------------------------------------------
 # This docker file is primarily used for building python-based data analytic pipelines
-# Add other packages as need to explore data interactively(ex: Jupyter Lab)
+# Add other packages as needed to explore data interactively(ex: Jupyter Lab)
 # This image is pretty heavy at >1.5 GB, so keep in mind rebuilds will take time
-# I install the gcloud sdk as there's where I prefer to deploy pipelines
+# I install the gcloud sdk as that's where I prefer to deploy pipelines
 #-----------------------------------------------------------------------------------------
 
 FROM python:3
