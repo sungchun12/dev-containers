@@ -9,6 +9,7 @@ FROM python:3
 RUN pip install pylint
 
 # Configure apt
+# Only install necessary debian packages, not suggested ones
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
   && apt-get -y install --no-install-recommends apt-utils 2>&1
