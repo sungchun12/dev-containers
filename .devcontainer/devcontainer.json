@@ -1,8 +1,11 @@
 {
   "name": "Python Data Analytics",
   "dockerFile": "Dockerfile",
-  "appPort": 8888,
+  "appPort": 8888, //jupyter port running locally
   "context": "..",
+  // "workspaceFolder": "/workspace/dev-containers-workspace.code-workspace", //open vscode workspace
+  // "postCreateCommand": "jupyter lab", //launch jupyter lab
+  "shutdownAction": "stopContainer", //shutdown container after I close vscode
   "extensions": [
     "ms-python.python",
     "CoenraadS.bracket-pair-colorizer",
