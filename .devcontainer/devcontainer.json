@@ -1,7 +1,7 @@
 {
   "name": "Python Data Analytics",
   "dockerFile": "Dockerfile",
-  "appPort": 9000,
+  "appPort": 8888,
   "context": "..",
   "extensions": [
     "ms-python.python",
