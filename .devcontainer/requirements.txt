@@ -5,3 +5,4 @@ ray
 modin
 pylint
 pep8
+jupyter
