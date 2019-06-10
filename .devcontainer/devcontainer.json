@@ -1,7 +1,7 @@
 {
   "name": "Python Data Analytics",
   // "image": "justsung/vsc-py-dev:latest", #BYOI(Bring your own image via docker hub)
-  "dockerFile": "Dockerfile",
+  "dockerFile": "Dockerfile", //I recommend you locally build your own image
   "appPort": 8888, //jupyter port running locally
   "context": "..",
   // "workspaceFolder": "/workspace/dev-containers-workspace.code-workspace", //open vscode workspace
