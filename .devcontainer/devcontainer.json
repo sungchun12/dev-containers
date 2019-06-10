@@ -5,7 +5,11 @@
   "appPort": 8888, //jupyter port running locally
   "context": "..",
   // "workspaceFolder": "/workspace/dev-containers-workspace.code-workspace", //open vscode workspace
-  // "postCreateCommand": "", //
+  "postCreateCommand": [
+    //setup git email and username
+    "git config user.email \"sungwonchung3@gmail.com\"",
+    "git config user.name \"sungchun12\""
+  ],
   "shutdownAction": "stopContainer", //shutdown container after I close vscode
   "extensions": [
     "ms-python.python",
