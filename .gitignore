@@ -1,3 +1,4 @@
 
 #ignore directory utilities
 repo-runner.sh
+.pytest_cache/
