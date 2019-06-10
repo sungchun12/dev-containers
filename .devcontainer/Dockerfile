@@ -13,8 +13,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
   && apt-get -y install --no-install-recommends apt-utils 2>&1
 
-# Install git, process tools, lsb-release (common in install instructions for CLIs)
-RUN apt-get -y install git procps lsb-release nano
+# Install git, process tools, lsb-release, nano, unzip (common in install instructions for CLIs)
+RUN apt-get -y install git procps lsb-release nano unzip wget
 
 ###### Install google cloud SDK ######
 # Downloading gcloud package
@@ -27,6 +27,13 @@ RUN mkdir -p /usr/local/gcloud \
 
 # Adding the package path to local
 ENV PATH $PATH:/usr/local/gcloud/google-cloud-sdk/bin
+######################################
+
+###### Install Terraform #############
+RUN wget --quiet https://releases.hashicorp.com/terraform/0.12.1/terraform_0.12.1_linux_amd64.zip \
+  && unzip terraform_0.12.1_linux_amd64.zip \
+  && mv terraform /usr/bin \
+  && rm terraform_0.12.1_linux_amd64.zip
 ######################################
 
 # Install any missing dependencies for enhanced language service
