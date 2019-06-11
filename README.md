@@ -1,23 +1,38 @@
 # dev-containers
 
-**Repo Summary Statement**
+**Repo Summary Statement** The TLDR of what this repo does and why someone should care
 
-**Usage:**
-
-- foo
-
-**Data Pipeline Operations:**
+**Usage:** Listed use cases(ex: template code, utility to make workflows easier, etc.)
 
 - foo
+
+**Order of Operations:** Listed steps for how the application/pipeline works
+
+1. foo
+2. foo
 
 **Technologies:** List out the technical components(ex: database, serverless function, etc.)
 
+- Database:
+- Middleware:
+
+**Languages:** ex: Python 3.7, SQL(Standard), Terraform, etc.
+
+**Technical Concepts:** Illustrate design choices, and highlight nuances worth pointing out
+
 - foo
 
-**Languages:** Python 3.7, SQL(Standard), Terraform, etc.
+**Further Reading:** Articles to dive deeper into specific areas
 
-**Technical Concepts:** 
+- foo
 
-**Further Reading:**
+**Lessons Learned:** Name pain points, pleasant surprises, and how I would develop this better next time/going forward
 
-[How to choose a license](https://choosealicense.com/)
+- foo
+
+
+---
+## Resources
+
+[How to choose a repo license?](https://choosealicense.com/)
+
