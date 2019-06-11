@@ -52,5 +52,6 @@ All feedback is welcome! You can use the issue tracker to submit bugs, ideas, et
 
 ## Resources
 
-[How to choose a repo license?](https://choosealicense.com/)
-[Share a stackshare decision!](https://stackshare.io/sungchun12/my-stack)
+- [How to choose a repo license?](https://choosealicense.com/)
+- [Share a stackshare decision!](https://stackshare.io/sungchun12/my-stack)
+- [How to develop in vscode & docker?](https://github.com/sungchun12/dev-containers/blob/master/INSTALLME.md)
