@@ -1,8 +1,14 @@
 # dev-containers
 
-**Repo Summary Statement** The TLDR of what this repo does and why someone should care
+## Repo Summary Statement
 
-**Usage:** Listed use cases(ex: template code, utility to make workflows easier, etc.)
+The TLDR of what this repo does and why someone should care
+
+---
+
+## Usage
+
+Listed use cases(ex: template code, utility to make workflows easier, etc.)
 
 - foo
 
