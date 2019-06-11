@@ -30,6 +30,10 @@
 
 - foo
 
+## Contribute
+
+All feedback is welcome! You can use the issue tracker to submit bugs, ideas, etc. Pull requests are splendid!
+
 ---
 
 ## Resources
