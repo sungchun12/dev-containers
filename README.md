@@ -2,7 +2,9 @@
 
 ## Repo Summary Statement
 
-The TLDR of what this repo does and why someone should care
+The TLDR of what this repo does and why someone should care.
+
+Use this repo template to isolate development workloads, and share it with your team. Hopefully, this minimizes the administrative overhead in starting and documenting your projects.
 
 ## Usage
 
