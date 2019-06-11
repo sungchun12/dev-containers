@@ -1,4 +1,10 @@
 """
+Use this python file as for interactive jupyter notebook data analysis.
+This isn't an .ipynb file format, but you can export output cells into a 
+notebook after analysis.
+Using a regular python file as my workflow, I have a clearler view
+of the defined variables.
+Also, you can better commit code and have full vscode tools at your disposal.
 """
 
 #%%
@@ -33,8 +39,5 @@ pd.set_option("display.max_rows", 120)
 pd.set_option("display.max_columns", 120)
 
 #%%
-import modin.pandas as pd
-import numpy as np
-
 frame_data = np.random.randint(0, 100, size=(2**10, 2**8))
 df = pd.DataFrame(frame_data)
