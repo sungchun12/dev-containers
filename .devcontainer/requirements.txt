@@ -6,3 +6,4 @@ modin
 pylint
 pep8
 jupyter
+black # python formatter
