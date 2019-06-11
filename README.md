@@ -30,9 +30,8 @@
 
 - foo
 
-
 ---
+
 ## Resources
 
 [How to choose a repo license?](https://choosealicense.com/)
-
