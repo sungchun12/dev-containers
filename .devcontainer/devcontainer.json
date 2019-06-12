@@ -1,16 +1,14 @@
 {
   "name": "Python Data Analytics",
-  // "image": "justsung/vsc-py-dev:latest", #BYOI(Bring your own image via docker hub)
+  // "image": "justsung/vsc-py-dev:latest", #BYOI-Bring your own image via docker hub
   "dockerFile": "Dockerfile", //I recommend you locally build your own image, but comment this out if BYOI
   "appPort": 8888, //jupyter port running locally
   "context": "..",
-  // "workspaceFolder": "/workspace/dev-containers-workspace.code-workspace", //open vscode workspace
   "postCreateCommand": [
-    //setup git email and username
     "git config user.email \"sungwonchung3@gmail.com\"",
     "git config user.name \"sungchun12\""
   ],
-  "shutdownAction": "stopContainer", //shutdown container after I close vscode
+  "shutdownAction": "stopContainer",
   "extensions": [
     "ms-python.python",
     "CoenraadS.bracket-pair-colorizer",
