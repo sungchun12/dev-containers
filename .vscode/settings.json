@@ -2,6 +2,7 @@
   "docker.defaultRegistryPath": "justsung",
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
+  "files.eol": "\n",
   "files.autoSave": "afterDelay",
   "git.enableSmartCommit": true,
   "powermode.enableShake": false,
