@@ -2,7 +2,7 @@
 
 ## Repo Summary Statement
 
-The TLDR of what this repo does and why someone should care.
+*The TLDR of what this repo does and why someone should care.*
 
 Use this repo template to isolate development workloads, and share it with your team. Hopefully, this minimizes the administrative overhead in starting and documenting your projects.
 
@@ -18,43 +18,43 @@ Main Docker Dev Components:
 
 ## Usage
 
-Listed use cases(ex: template code, utility to make workflows easier, etc.)
+*Listed use cases(ex: template code, utility to make workflows easier, etc.)*
 
 - foo
 
 ## Order of Operations
 
-Listed steps for how the application/pipeline works
+*Listed steps for how the application/pipeline works*
 
 1. foo
 2. foo
 
 ## Technologies
 
-List out the technical components(ex: database, serverless function, etc.)
+*List out the technical components(ex: database, serverless function, etc.)*
 
 - Database:
 - Middleware:
 
 ## Languages
 
-ex: Python 3.7, SQL(Standard), Terraform, etc.
+*ex: Python 3.7, SQL(Standard), Terraform, etc.*
 
 ## Technical Concepts
 
-Illustrate design choices, and highlight nuances worth pointing out
+*Illustrate design choices, and highlight nuances worth pointing out*
 
 - foo
 
 ## Further Reading
 
-Articles to dive deeper into specific areas
+*Articles to dive deeper into specific areas*
 
 - foo
 
 ## Lessons Learned
 
-Name pain points, pleasant surprises, and how I would develop this better next time/going forward
+*Name pain points, pleasant surprises, and how I would develop this better next time/going forward*
 
 - foo
 
