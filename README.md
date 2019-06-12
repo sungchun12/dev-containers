@@ -6,6 +6,16 @@ The TLDR of what this repo does and why someone should care.
 
 Use this repo template to isolate development workloads, and share it with your team. Hopefully, this minimizes the administrative overhead in starting and documenting your projects.
 
+Main Docker Dev Components:
+
+- Debian Linux
+- Python
+- bash
+- git
+- gcloud SDK
+- terraform 0.12.1
+- pip install anything in "requirements.txt"
+
 ## Usage
 
 Listed use cases(ex: template code, utility to make workflows easier, etc.)
